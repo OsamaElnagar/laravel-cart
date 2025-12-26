@@ -1,4 +1,4 @@
-# Osama Cart Package
+# Cart Laravel Package
 
 A flexible, polymorphic cart system for Laravel applications. This package allows you to add any model to a cart (Products, Services, etc.) and handles both authenticated and guest (cookie-based) shopping carts seamlessly.
 
@@ -150,3 +150,6 @@ Check `config/cart.php` for customization options:
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+git add .
+git commit -m "Update README"
+git push

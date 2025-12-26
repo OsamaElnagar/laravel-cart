@@ -1,6 +1,6 @@
 {
   "name": "osamaelnagar/cart",
-  "description": "A standalone cart package for Laravel.",
+  "description": "A standalone cart package for Laravel V11+.",
   "type": "library",
   "license": "MIT",
   "authors": [
