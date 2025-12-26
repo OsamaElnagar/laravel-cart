@@ -1,0 +1,42 @@
+{
+  "name": "osamaelnagar/cart",
+  "description": "A standalone cart package for Laravel.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Osama Elnagar",
+      "email": "osamaelngar98@gmail.com"
+    }
+  ],
+  "keywords": [
+    "laravel",
+    "cart",
+    "polymorphic",
+    "shopping cart"
+  ],
+  "require": {
+    "php": "^8.2",
+    "illuminate/support": "^11.0|^12.0",
+    "illuminate/database": "^11.0|^12.0",
+    "illuminate/cookie": "^11.0|^12.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^9.0|^10.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "OsamaElnagar\\Cart\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "OsamaElnagar\\Cart\\CartServiceProvider"
+      ],
+      "aliases": {
+        "Cart": "OsamaElnagar\\Cart\\Facades\\Cart"
+      }
+    }
+  }
+}
